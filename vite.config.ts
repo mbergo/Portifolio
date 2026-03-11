@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 10000,
       host: '0.0.0.0',
-      allowedHosts: '*',
+      allowedHosts: true,
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
